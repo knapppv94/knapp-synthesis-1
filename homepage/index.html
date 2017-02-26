@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Synthesis One Assignment</title>
+	<meta charset="utf-8" />
+
+	<link type="text/css" rel="stylesheet" href="../dist/css/bootstrap.css" />
+  	<link type="text/css" rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css"> <!-- Link to W3.CSS Library -->
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-vivid.css"> <!-- Link to color library -->
+</head>
+
+<nav>
+      <ul>
+     <style>
+      li{
+        display: inline;
+      }
+      </style>
+      <li><a href="../homepage/index.html">Home</a></li>
+        <li><a href="../trump/index.html">Trump</a></li>
+        <li><a href="../mussolini/index.html">Mussolini</a></li>
+        <li><a href="../hitler/index.html">Hitler</a></li>
+        <li><a href="../franco/index.html">Franco</a></li>
+      </ul>
+  </nav>
+
+<body>
+
+<div class="container">
+    <div class="row">
+          <div class="col-md-8">
+            <h1 align="center" style="font-family:Garamond bold">Analyzing Fascism</h1>
+            <div class="fancy" style= 'margin-bottom: 25px;'> 
+            <p> This will be something.
+            </p>
+            </div>
+              
+<title>W3.CSS Slideshow</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/lib/w3.css">
+<body>
+
+<h1 align="center" style="font-family: Garamond bold">Measuring Key Terms</h1>
+
+<div class="w3-content w3-display-container">
+
+<div class="w3-display-container mySlides">
+  <img src="hitler_dispersion_plot.png" style="width:100%">
+    <div class="w3-display-bottomright w3-container w3-padding-10 w3-vivid-pink"><em>Adolf Hitler</em></div></div>
+<div class="w3-display-container mySlides">
+  <img src="musso_dispersion_plot.png" style="width:100%">
+     <div class="w3-display-bottomright w3-container w3-padding-10 w3-vivid-pink"><em>Benito Mussolini</em></div></div>
+<div class="w3-display-container mySlides">
+  <img src="franco_dispersion_plot.png" style="width:100%">
+     <div class="w3-display-bottomright w3-container w3-padding-10 w3-vivid-pink"><em>Francisco Franco</em></div></div>
+<div class="w3-display-container mySlides">
+  <img src="trump_dispersion_plot.png" style="width:100%">
+     <div class="w3-display-bottomright w3-container w3-padding-10 w3-vivid-pink"><em>Donald Trump</em></div>
+  </div>
+
+<button class="w3-button w3-display-left w3-vivid-pink" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-vivid-pink" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
+
+  <!-- JavaScript -->
+  <script src="../js/jquery-3.1.0.min.js"></script>
+  <script src="../dist/js/bootstrap.js"></script>
+
+  <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+</body>
+</html>
